@@ -125,6 +125,6 @@ try:
 except OSError:
   print('Error: Creating directory. ' + prcsDir)
 
-data.save()
+# data.save()
 # 뭘로 저장할까?
 # numpy? 가 유력.
